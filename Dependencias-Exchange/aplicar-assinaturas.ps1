@@ -8,7 +8,7 @@ Set-OrganizationConfig -PostponeRoamingSignaturesUntilLater $true
 # Caminhos
 $Base = 'C:\Assinaturas Zaya.it\Dependencias-Exchange"'
 $TemplatePath = Join-Path $Base 'modelo-assinatura.html'
-$CsvPath = Join-Path $Base 'assinaturas-zaya.csv'
+$CsvPath = Join-Path $Base 'assinaturas-zaya-novembro'
 $LogPath = Join-Path $Base 'log-assinaturas.txt'
 
 # Validar arquivos
